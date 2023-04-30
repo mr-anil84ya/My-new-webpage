@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-div{
+    background-color: skyblue;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px green;
+}
+.nav-div img{
+    height: 100px;
+    margin-top: 2px;
+    padding: 5px;
+}
+/* .main-div{
+    background-color: rgb(240, 233, 233);
+    margin-top: 20px;
+} */
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   & img{
+        height: 600px;
+        padding: 40px 0px 40px 150px;
+
+   }
+}
+
+.main-div-content{
+    padding: 40px 100px 40px 50px;
+    color: blue;
+    align-items: baseline;
+}
+.main-div-content span{
+    font-size: 20px;
+    color: gray;
+    text-align: right;
+}
+.main-div-content h1{
+    color: blue;
+    font-family: sans-serif;
+}
+.main-div-content button{
+    text-transform: uppercase;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.main-div-content button:hover{
+    background-color: white;
+    color: blue;
+    border:1px solid blue;
+    
+    
+}
+.image-card{
+    min-height: 200px;
+    background-color: rgb(247, 248, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image-card img{
+    height: 200px;
+}
+.image-card span{
+    color: rgb(105, 175, 231);
+    font-family:sans-serif;
+    font-size: 15px;
+    margin:auto;
+    font-style: italic;
+}
+.footer-text{
+    background-color: rgb(215, 238, 234);
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
